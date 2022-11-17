@@ -10,11 +10,14 @@ function App() {
     return (
         <div className="App">
             <ul>
-                <h1>Array</h1>
+                <h1>js-native-dimich</h1>
+                <h2>05</h2>
+                <h3>Array</h3>
                 {liElements}
-                <h1>Object</h1>
+                <h3>Object</h3>
                 {liElementsFromUsers}
                 {/*{names.map((el, index) => <li key={index}>{el}</li>)}*/}
+                <h2>06</h2>
             </ul>
         </div>
     );

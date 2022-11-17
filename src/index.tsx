@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ManType} from "./05/05_01";
+import {User} from "./06/06-callbacks";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,7 +24,7 @@ console.log(messages)
 
 root.render(
   // <React.StrictMode>
-    <App />
+    <User />
   // </React.StrictMode>
 );
 
