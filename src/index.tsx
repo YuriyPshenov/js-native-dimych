@@ -24,7 +24,7 @@ console.log(messages)
 
 root.render(
   // <React.StrictMode>
-    <User />
+    <App />
   // </React.StrictMode>
 );
 
