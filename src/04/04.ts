@@ -7,12 +7,12 @@
 // const oldAges = [] // > 90
 //
 //
-//
-// type CoursesType = {
-//     title: string
-//     price: number
-// }
-//
+
+export type CoursesType = {
+    title: string
+    price: number
+}
+
 // const courses: Array<CoursesType> = [
 //     {title: 'css', price: 100},
 //     {title: 'js', price: 200},

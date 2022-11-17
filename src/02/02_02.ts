@@ -1,7 +1,7 @@
 export type CityType = {
     title: string
     houses: Array<HousesType>
-    governmentBuildings: Array<governmentBuildingsType>
+    governmentBuildings: Array<GovernmentBuildingsType>
     citizensNumber: number
 }
 
@@ -29,7 +29,7 @@ type AddressGbType = {
     street: StreetGbType
 }
 
-export type governmentBuildingsType = {
+export type GovernmentBuildingsType = {
     type: "HOSPITAL" | "FIRE-STATION"
     budget: number
     staffCount: number

@@ -1,5 +1,5 @@
 import {StudentType} from "../02/02";
-import {CityType, governmentBuildingsType, HousesType} from "../02/02_02";
+import {CityType, GovernmentBuildingsType, HousesType} from "../02/02_02";
 
 
 export const sum = (a: number, b: number) => {
@@ -18,7 +18,7 @@ export const doesStudentLiveIn = (student: StudentType, cityName: string) => {
     return student.address.city.title === cityName
 }
 
-export const addMoneyToBudget = (gb: governmentBuildingsType, budget: number) => {
+export const addMoneyToBudget = (gb: GovernmentBuildingsType, budget: number) => {
     gb.budget += budget
 }
 
@@ -26,11 +26,11 @@ export const repairHouse = (house: HousesType) => {
     house.repaired = true
 }
 
-export const toFireStaff = (gb: governmentBuildingsType, staff: number) => {
+export const toFireStaff = (gb: GovernmentBuildingsType, staff: number) => {
     gb.staffCount -= staff
 }
 
-export const toHireStaff = (gb: governmentBuildingsType, staff: number) => {
+export const toHireStaff = (gb: GovernmentBuildingsType, staff: number) => {
     gb.staffCount += staff
 }
 

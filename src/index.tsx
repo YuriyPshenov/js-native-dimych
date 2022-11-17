@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ManType} from "./05/05_01";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+
+const people: Array<ManType> = [
+    {name: 'Andrew Ivanov', age: 33},
+    {name: 'Alexander Petrov', age: 24},
+    {name: 'Dmitry Sidorov', age: 18},
+]
+
+const messages = people.map(man => `Hello ${man.name}`)
+
+console.log(messages)
+
+
 root.render(
   // <React.StrictMode>
     <App />
